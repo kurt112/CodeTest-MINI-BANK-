@@ -1,0 +1,4 @@
+1. change the value of database path in spring
+2. find the file of httpRequest in root path of ui
+3. the db folder contains db structure that i use for my code test
+4. That's it :)

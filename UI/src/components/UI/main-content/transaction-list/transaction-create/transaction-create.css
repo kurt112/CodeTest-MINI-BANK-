@@ -1,0 +1,93 @@
+.transaction-create{
+    z-index: 25;
+    background-color: white;
+    position: fixed;
+    width: 80%;
+    left: 17%;
+    top: 20%;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.transaction-action{
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+    padding-left: 10px; 
+}
+.transaction-action button {
+    min-width: 150px;
+    margin-left: 10px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #B72B39;
+    border: none !important;
+}
+.transaction-footer{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    height: 10%;
+    margin: 0px 20px;
+    margin-top: 10px;
+}
+.transaction-footer button{
+    width: 200px;
+    background-color: #B72B39;
+    color: white;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.transaction-title{
+  
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.transaction-input{
+    text-align: center;
+}
+.transaction-input p{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+.transaction-confirmation{
+    text-align: center;
+}
+.transaction-confirmation button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: #B72B39;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.transaction-input input[type='number'], .transaction-input input[type='text']{
+    border: none;
+    border-bottom: 1px solid black ;
+    height: 40px;
+    width: 430px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.transaction-input input[type='number']:focus, .transaction-input input[type='text']{
+    border: none;
+    border-bottom: 1px solid black ;
+    outline: none;
+
+    
+}

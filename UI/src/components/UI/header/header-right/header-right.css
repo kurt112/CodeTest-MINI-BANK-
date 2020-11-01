@@ -1,0 +1,13 @@
+.Right{
+
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 10px;
+}
+p{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: bold;
+}
